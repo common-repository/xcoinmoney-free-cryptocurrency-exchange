@@ -1,0 +1,27 @@
+.payment-system-box{
+  width: 40%;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.payment-system-field-block{
+  margin:10px 0px;
+}
+
+.payment-system-field-label{
+  width: 100%;
+  display: inline-block;
+}
+
+.payment-system-field-option{
+  width: 100%;
+  display: inline-block;
+}
+
+.error{
+  color:red;
+  list-style: none;
+}
+
+

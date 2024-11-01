@@ -1,0 +1,35 @@
+1. xCoinMoney_exchange Copy directory to the directory wp-content/plugins.
+
+Admin:
+1. Plugins section activate the plugin xCoinmoney Exchange.
+2 . In basic settings you need to enter data from your profile xcoinmoney.com
+- XCoinMoney User ID --- ID your account xcoinmoney.com
+- XCoinMoney API Key --- secret key that you entered in the appropriate field in your profile to xcoinmoney.com
+- XCoinMoney Merchant Email --- email that will receive the letter with the notification about the operations in the exchanger .
+3 . Under Exchange Systems can change the names of payment systems (as they will appear in the service ) .
+    You can also disable the payment system for input or withdrawal.
+4 . Under Exchange Ways Showing ways to exchange rates and commissions for each of them .
+    Referral Fee% --- percent . It has priority
+    Min Fee --- minimum commission
+    Exchange Rate - the exchange rate to be used for the operation . It is updated automatically once per hour.
+If this course is not enough, you can specify your own . To do this, tick the Set Rate Manually and write your course Manualy Exchange Rate.
+If you update your courses right now, then you need to click on the link Update Rates, which is located above the table courses.
+
+5 . Under Transactions can see a list of all transactions .
+    To see the details of each transaction you need to click on the link Details.
+    Above the table with transactions ( section Profit) you can see how much profit has exchanger for each currency .
+    In order to view information for any period of time you need to use a filter.
+
+
+To display the plugin on the front-end need to create a page and enter there shortcode
+[xcoinmoney_exchange] --- himself exchanger
+[exchange_rates] --- table with possible operations and exchange rates.
+[available_balance] --- information about the tools that are available in your accounts xcoinmoney. These funds may participate in the exchange operations
+
+Front-End:
+
+In the "I want to get" you need to enter how many units of the currency you want to get
+    "From" -- currency you want to give
+    "Get" -- currency you want to get
+The next step is to fill out additional fields for each of the payment systems .
+In the next step appear preview operation.
